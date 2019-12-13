@@ -186,10 +186,11 @@ ul.topmenu {
 	list-style:none;
 	margin:0;
 }
-ul.topmenu h5 {
-	font-size: 24px;
+ul.topmenu h5,
+ul.topmenu h5 a {
+	font-size: 28px;
 	color: #ddd;
-	font-weight: 600;
+	font-weight: 700;
 	margin: 0;
 }
 ul.topmenu li {
@@ -1060,6 +1061,10 @@ ul.lush-slider {
 	position:relative;
 	margin:0;
 	padding:0;
+	/* border-bottom: 2px solid black; */
+	-webkit-box-shadow: 0 1px 4px rgba(3, 16, 31, 0.25);
+	-moz-box-shadow: 0 1px 4px rgba(3, 16, 31, 0.25);
+	box-shadow: 0 1px 4px rgba(3, 16, 31, 0.25);
 }
 
 
