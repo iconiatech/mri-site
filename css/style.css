@@ -645,6 +645,12 @@ ul.lush-slider {
 	line-height:1.1em;
 }
 
+.cta-text .inverse h2 {
+	font-weight: 900;
+	line-height: 1.1em;
+	background: black;
+}
+
 .cta-btn {
 	float:right;
 	padding:20px;

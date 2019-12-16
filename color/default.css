@@ -109,6 +109,10 @@ ul.styledlist li:before {
 	color:#8fc04e;
 }
 
+.cta-text h2 strong {
+	color: black;
+}
+
 /* CTA */
 .cta-text h2 span {
 	color: var(--blue);
