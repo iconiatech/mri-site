@@ -86,25 +86,25 @@
 /* Backgorund Images */
 
 .slide:first-child {
-  background: url('../img/slider/slider-01.jpg') no-repeat center top/cover;
+  background: url('../img/slider/slider-04.jpg') no-repeat center center/cover;
 }
 
 .slide:nth-child(2) {
-  background: url('../img/slider/slider-02.jpg') no-repeat center top/cover;
+  background: url('../img/slider/slider-05.jpg') no-repeat center center/cover;
 }
 
 .slide:nth-child(3) {
-  background: url('../img/slider/slider-03.jpg') no-repeat center top/cover;
+  background: url('../img/slider/slider-06.jpg') no-repeat center center/cover;
 }
 
 .slide:nth-child(4) {
-  background: url('https://source.unsplash.com/yXpA_eCbtzI/1600x900') no-repeat center top/cover;
+  background: url('../img/slider/slider-07.jpg') no-repeat center center/cover;
 }
 
 .slide:nth-child(5) {
-  background: url('https://source.unsplash.com/ULmaQh9Gvbg/1600x900') no-repeat center top/cover;
+  background: url('../img/slider/slider-08.jpg') no-repeat center center/cover;
 }
 
 .slide:nth-child(6) {
-  background: url('https://source.unsplash.com/ggZuL3BTSJU/1600x900') no-repeat center center/cover;
+  background: url('../img/slider/slider-09.jpg') no-repeat center center/cover;
 }

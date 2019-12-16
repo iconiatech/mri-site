@@ -1,3 +1,36 @@
+:root {
+  --blue: #375a7f;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #E74C3C;
+  --orange: #fd7e14;
+  --yellow: #F39C12;
+  --green: #00bc8c;
+  --teal: #20c997;
+  --cyan: #3498DB;
+  --white: #fff;
+  --gray: #999;
+  --gray-dark: #303030;
+  --primary: #375a7f;
+  --secondary: #444;
+  --success: #00bc8c;
+  --info: #3498DB;
+  --warning: #F39C12;
+  --danger: #E74C3C;
+  --light: #999;
+  --dark: #303030;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+
+
 /* === Typography === */
 h1, h2, h3, h4, h5, h6{
 	font-family: 'Raleway', sans-serif;
@@ -1272,22 +1305,23 @@ border-top:none;
 }
 
 .nav-tabs {
-  border-bottom:1px solid #ddd;
+  border-bottom:5px solid #ddd;
   margin:0;
 }
 
 .nav-tabs > li > a {
   outline:0;
-  font-size:13px;
-font-weight:600;
+  font-size:24px;
+  font-weight:600;
   background:#eee;
   border:1px solid #ddd;
+  text-transform: uppercase;
 }
 
 .nav-tabs > li > a:hover {
   outline:0;
-  font-size:13px;
-font-weight:600;
+  font-size:24px;
+  font-weight:600;
   background:#eee;
   border:1px solid #ddd;
 }
@@ -1301,14 +1335,14 @@ font-weight:600;
 .tabs-left .nav-tabs > li > a:hover {
   outline:0;
   font-size:13px;
-font-weight:600;
+  font-weight:600;
   background:#eee;
   border:1px solid #ddd;
 }
 .tabs-right .nav-tabs > li > a:hover {
   outline:0;
   font-size:13px;
-font-weight:600;
+  font-weight:600;
   background:#eee;
   border:1px solid #ddd;
 }
@@ -1316,7 +1350,7 @@ font-weight:600;
 .tabs-left .nav-tabs > .active > a:hover,
 .tabs-left .nav-tabs > .active > a:focus {
   background:#f5f4f2;
-    border-right:1px solid #f5f4f2;
+  border-right:1px solid #f5f4f2;
 }
 .tabs-right .nav-tabs > .active > a,
 .tabs-right .nav-tabs > .active > a:hover,
@@ -1336,7 +1370,8 @@ font-weight:600;
 .nav-tabs > .active > a:hover,
 .nav-tabs > .active > a:focus {
   background:#f5f4f2;
-    border-bottom:1px solid #f5f4f2;
+  border-bottom:1px solid #f5f4f2;
+  color: var(--green);
 }
 
 .tabs-left .tab-content > .tab-pane{
