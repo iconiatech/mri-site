@@ -938,7 +938,7 @@ border-top:none;
 .dropdown-menu .sub-menu-level1, .dropdown-menu .sub-menu-level2 {left:100%;position:absolute;top:0;visibility:hidden;margin-top: 0;}
 .dropdown-menu li:hover .sub-menu-level1 {visibility:visible;}
 .dropdown-menu li li:hover .sub-menu-level2 {visibility:visible;}
-.nav-header {
+/* .nav-header {
   display: block;
   padding: 5px 10px;
   font-size:12px;
@@ -947,7 +947,7 @@ border-top:none;
   color: #fff;
   text-shadow: none;
   text-transform: uppercase;
-}
+} */
 .dropdown-menu .divider {
   *width: 100%;
   height: 1px;

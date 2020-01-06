@@ -139,22 +139,27 @@ img.img-polaroid {
 
 /* --- header -- */
 header{
+	top:0;
 	background: var(--cyan);
-	margin:0;
 	padding:0 0 20px;
-	position:relative;
+	position:fixed;
+	width: 100%;
 	z-index:2000;
 }
 
 header .top {
-	padding:10px 0 10px;
+	padding: 0 10px;
 	margin:0 0 30px;
+	position: relative;
 	background: var(--blue);
 	-webkit-box-shadow: 0 4px 4px -2px #222;
   -moz-box-shadow: 0 4px 4px -2px #222;
-  box-shadow: 0 4px 4px -2px #222;
+	box-shadow: 0 4px 4px -2px #222;
 }
 
+header .top img {
+	float: left;
+}
 
 header .logo {
 	float:left;
@@ -176,12 +181,54 @@ header .logo h1 a {
 header .logo h1 a:hover {
 	text-decoration:none;
 }
+.cta {
+	margin-top: 180px;
+}
 /* --- top area --- */
 
+.header-btn {
+	padding: 14px 14px;
+	background: transparent;
+	color: #fff;
+	border: 1px solid var(--cyan);
+	text-transform: uppercase;
+	font-size: 18px;
+}
+.header-btn:hover {
+	background: var(--cyan);
+	color: black;
+}
+header .top span,
+header .top strong,
+.header-btn i {
+	color: #fff;
+}
+
+@media screen and (max-width: 980px) {
+	header .top .span8 {
+		flex-direction: column;
+	}
+	header .top span {
+		display: none;
+	}
+	.header-btn {
+		display: none;
+	}
+}
 header .top .row {
 	margin-bottom:0;
 }
-
+header .top .row .span8 {
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 18px;
+}
+header .top h3{
+	color: #fff;
+	font-family: sans-serif;
+	font-weight: 800;
+	margin-left: 20px;
+}
 ul.topmenu {
 	list-style:none;
 	margin:0;
@@ -204,8 +251,6 @@ ul.topmenu li a {
 ul.topmenu li a:hover {
 	text-decoration:none;
 }
-
-
 ul.social-network {
 	/* float:right; */
 	font-size: 24px;
@@ -226,9 +271,9 @@ ul.social-network li a:hover {
 
 /* --- menu --- */
 
-header .navigation {
+/* header .navigation {
 	float:right;
-}
+} */
 
 header ul.nav li {
 	border:none;
@@ -282,7 +327,9 @@ header ul.nav li ul li ul {
 	margin-top:3px;
 	padding-left:20px;
 }
-
+.navbar .nav li a i {
+	color: #fff;
+}
 .navbar .nav > li > .dropdown-menu:before {
   display: inline-block;
   border-right: none;
@@ -633,6 +680,17 @@ ul.lush-slider {
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
+}
+
+.cta-bo {
+	margin-top: 25px;
+	background: #eceae6;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
 }
 
 .cta-text {
