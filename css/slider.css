@@ -71,6 +71,9 @@
 }
 
 @media (max-width: 500px) {
+  .slider {
+    top: 0;
+  }
   .slide .content {
     bottom: -300px;
     left: 0;

@@ -112,7 +112,9 @@ h2.errortitle {
 /* ===================================
 3. Responsive media
 ==================================== */
-
+.btn-small {
+	display: none;
+}
 .video-container,.map-container,.embed-container 		{ position:relative; margin:0 0 15px 0;	padding-bottom:51%; padding-top:30px; height:0; overflow:hidden; border:none; }
 .embed-container iframe,
 .embed-container object,
@@ -2415,31 +2417,58 @@ ul.the-icons {
 21. Media queries
 ============================= */
 @media screen and (max-width: 980px) {
+	.cta {
+		margin-top: 0;
+	}
+	.btn-small {
+		padding: 10px;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		display: block;
+		position: fixed;
+		height: 60px;
+		font-size: 28px;
+		margin: 0;
+		text-transform: uppercase;
+	}
+	.btn-small:active,
+	.btn-small:visited {
+		background: var(--yellow);
+		color: #000;
+	}
+	.display-big {
+		display: none;
+	}
 	header {
 		padding:0 0 10px;
-		position: static;;
+		position: static;
 	}
-
 	header .top {
 		padding: 0 5px;
 		margin:0 0 5px;
+		flex-direction: column;
 	}
-
-	header .top img {
-		align-items: center;
-		align-content: center;
+	header .top .header-right {
+		justify-content: flex-start;
 	}
-
-	header .top span {
+	header .top .header-right .btn-custom,
+	header .top .header-right h3,
+	header .top .header-right span {
 		display: none;
 	}
-
-	header .top h3 {
-		display: none;
+	header .top .header-right form input {
+		padding: 20px;
 	}
-
-	.header-btn {
-		display: none;
+	header .top .header-right a.btn-custom {
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		font-weight: 600;
+		font-size: 24px;
+	}
+	header .top .header-right a.btn-custom:hover {
+		background: var(--cyan);
 	}
 }
 
