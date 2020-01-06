@@ -2210,7 +2210,8 @@ section.demogrid .span12.nest {
 	width:32px;
 	height:32px;
   bottom:20px;
-  right:20px;
+	right:20px;
+	z-index: 1000;
 }
 
 a.scrollup {
