@@ -90,25 +90,21 @@
 /* Backgorund Images */
 
 .slide:first-child {
-  background: url('../img/man-in-gray-shirt-cleaning-clear-glass-wall-near-sofa.jpg') no-repeat center center/cover;
+  background: url('../img/slider/auto-detailing-interior.jpg') no-repeat center center/cover;
 }
 
 .slide:nth-child(2) {
-  background: url('../img/slider/slider-01.jpg') no-repeat center center/cover;
+  background: url('../img/others/area-rug-other-2.jpg') no-repeat center center/cover;
 }
 
 .slide:nth-child(3) {
-  background: url('../img/slider/slider-03.jpg') no-repeat center center/cover;
+  background: url('../img/others/area-rug-other.jpg') no-repeat center center/cover;
 }
 
 .slide:nth-child(4) {
-  background: url('../img/slider/slider-05.jpg') no-repeat center center/cover;
+  background: url('../img/others/hardwood-floor-other.jpg') no-repeat center center/cover;
 }
 
 .slide:nth-child(5) {
-  background: url('../img/slider/slider-06.jpg') no-repeat center center/cover;
-}
-
-.slide:nth-child(6) {
-  background: url('../img/slider/slider-04.jpg') no-repeat center center/cover;
+  background: url('../img/others/office-cleaning.jpg') no-repeat center center/cover;
 }
