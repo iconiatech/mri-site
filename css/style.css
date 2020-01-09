@@ -169,7 +169,6 @@ header .top .header-right {
 header .top .header-right a.btn-custom {
 	margin: 18px 18px 18px 18px;
 	padding-top: 10px;
-	padding-bottom: 10px;
 	padding-left: 40px;
 	padding-right: 40px;
 	text-align: center;
@@ -185,9 +184,8 @@ header .top .header-right a.btn-custom:hover {
 /* --- top area --- */
 header .top span,
 header .top h3,
-header .top form,
-header .top a {
-	padding-top: 18px;
+header .top form {
+	margin-top: 25px;
 }
 header .top span,
 header .top strong {
@@ -2433,7 +2431,7 @@ ul.the-icons {
 		position: fixed;
 		height: 60px;
 		font-size: 28px;
-		margin: 0;
+		text-align: center;
 		text-transform: uppercase;
 	}
 	.btn-small:active,
